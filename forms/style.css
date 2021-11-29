@@ -1,0 +1,71 @@
+/* .open-ids {
+    width: 236px;
+    margin: 0 auto;
+  } */
+
+.auth-provider {
+  font-family: system-ui, roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #d6d9dc;
+  text-align: center;
+  background: #fff;
+  color: #535a60;
+}
+
+.google-login {
+  color: #535a60;
+  border-color: #d6d9dc;
+}
+
+.facebook-login {
+  color: #fff;
+  background-color: #0851ee;
+  border-color: transparent;
+}
+
+.svg-icon {
+  vertical-align: middle;
+  /* padding-bottom: 4px; */
+}
+
+.hr-theme-slash-2 {
+  display: flex;
+  padding: 15px;
+}
+.hr-theme-slash-2 .hr-line {
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 1px solid rgb(209, 207, 207);
+  padding: 15px;
+}
+.hr-theme-slash-2 .hr-icon {
+  padding: 15px;
+  position: relative;
+  top: 15px;
+  color: #646464;
+}
+
+.loginForm {
+  padding-top: 50px;
+  padding-right: 190px;
+  padding-bottom: 50px;
+  padding-left: 190px;
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 1024px) {
+  .loginForm {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+  }
+}

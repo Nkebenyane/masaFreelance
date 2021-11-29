@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Masa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom Style -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <a href="./index.html" class="navbar-brand mr-0">
+                <img src="http://placehold.it/250x80" alt="CoolBrand" class="img-fluid">
+            </a>
+            <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100"
+                id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Provide Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Company</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item loginBtn">
+                        <a class="nav-link" href="../forms/loginForm/login.html">Login</a>
+                    </li>
+                    <li class="nav-item getStartBtn">
+                        <a class="nav-link" style="background:black; color:white; border-radius: 5px;" href="../forms/signUpForm/signUp.html">Get
+                            Started</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md  textSide">
+                <h1>Low - Carbon Future Homes for Africa</h1>
+                <p>Find LPG Service provider near you. Request installation, refill you gas and more</p>
+                <form class="mapForm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class='fas fa-map-marker-alt' style='font-size:20px'></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control col-6 mapInput" placeholder="Enter Address">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <button type="submit" class="btn btn">
+                                    <i class='fas fa-angle-right' style='font-size:20px'></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md  imageSide">
+                <div id="map"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md conveniantText">
+                <h2>Conveniant and safe LPGas <br /> for every houshold</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md  text-center">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class='far fa-clock' style='font-size:100px'></i>
+                            </div>
+                            <div class="card-body">
+                                <h4>Benefit 1</h4>
+                            </div>
+                            <div class="card-footer">
+                                <p>Some quick example text to build on the card title and make up bulk of the card's
+                                    content.
+                                    make up the bulk of the card's content</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md  text-center">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class='far fa-clock' style='font-size:100px'></i>
+                            </div>
+                            <div class="card-body">
+                                <h4>Benefit 2</h4>
+                            </div>
+                            <div class="card-footer">
+                                <p>Some quick example text to build on the card title and make up bulk of the card's
+                                    content.
+                                    make up the bulk of the card's content</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md text-center">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class='far fa-clock' style='font-size:100px;'></i>
+                            </div>
+                            <div class="card-body">
+                                <h4>Benefit 3</h4>
+                            </div>
+                            <div class="card-footer">
+                                <p>Some quick example text to build on the card title and make up bulk of the card's
+                                    content.
+                                    make up the bulk of the card's content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-dark btn-lg getStartFreeBtn">Get Started for Free</button>
+        </div>
+        <div class="row" style="background:rgb(248, 248, 248)">
+            <div class="col-md ">
+                <div class="VideoText">
+                    <h2>See How Masa Works</h2>
+                </div>
+            </div>
+        </div>
+        <di class="row" style="background:rgb(248, 248, 248)">
+            <div class="col-md-8 mx-auto">
+                <div class="youTubeVideo">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+        </di>
+
+        <div class="row calculateBg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md mx-auto calculateLeftText">
+                        <h1 class="" data-wow-delay="0.3s">
+                            Convert to LPG & see how much you can save
+                        </h1>
+                        <h6 class="mb-3 wow fadeInLeft" data-wow-delay="0.3s">
+                            256+ houshold are conerting to LPG daily
+                        </h6>
+                    </div>
+                    <div class="col-md mx-auto calculateForm">
+                        <form action="">
+                            <div class="form-group">
+                                <label>Choose energy type</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Electric strove">
+                            </div>
+                            <div class="form-group">
+                                <label>Select Unit</label>
+                                <input type="password" class="form-control form-control-lg" placeholder="e.g KW">
+                            </div>
+                            <div class="form-group">
+                                <label>Enter Energy Consumption</label>
+                                <input type="password" class="form-control form-control-lg" placeholder="e.g 100">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control form-control-lg btn btn-dark btn-lg">
+                                    Calculate
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md futureText">
+                <h2>A Low carbon future for all</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut
+                    labore
+                    et dolore magna aliqua
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="card infoTextCard">
+                            <div class="card-body infoBodyCard">
+                                <h4 class="card-title">Info 1</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla
+                                    et dictum</p>
+                                <div class="collapse multi-collapse" id="multiCollapse1">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                    anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                            <button class="form-control form-control-lg btn btn-dark btn-lg" data-toggle="collapse"
+                                data-target="#multiCollapse1" aria-expanded="false"
+                                aria-controls="multiCollapse1" id="myBtn">Read more</button>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="card infoTextCard">
+                            <div class="card-body infoBodyCard">
+                                <h4 class="card-title">Info 1</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla
+                                    et dictum</p>
+                                <div class="collapse multi-collapse" id="multiCollapse2">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                    anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                            <button class="form-control form-control-lg btn btn-dark btn-lg" data-toggle="collapse"
+                                data-target="#multiCollapse2" aria-expanded="false"
+                                aria-controls="multiCollapse2" id="myBtn">Read more</button>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="card infoTextCard">
+                            <div class="card-body infoBodyCard">
+                                <h4 class="card-title">Info 1</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla
+                                    et dictum</p>
+                                <div class="collapse multi-collapse" id="multiCollapse3">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                    anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                            <button class="form-control form-control-lg btn btn-dark btn-lg" data-toggle="collapse"
+                                data-target="#multiCollapse3" aria-expanded="false"
+                                aria-controls="multiCollapse3" id="myBtn">Read more</button>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="jumbotron" style="background:#c9c7c7;">
+                    <h1>Make Money With Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt
+                        ut labore et dolore magna aliqua</p>
+                    <button type="button" class="btn btn-dark btn-lg">
+                        Provide Service Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container commonQuestionContainer">
+                <div class="row">
+                    <div class="col-md commonQuestionText">
+                        <h2>Common Questions</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <ul class="faq-list">
+                            <li>
+                                <h4 class="faq-heading"> Can I convert from electric to LPG? </h4>
+                                <p class="read faq-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis
+                                    viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit.
+                                    Suspendisse
+                                    metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id.
+                                    Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 mx-auto">
+                        <ul class="faq-list">
+                            <li>
+                                <h4 class="faq-heading"> How much does it cost to install LPG? </h4>
+                                <p class="read faq-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis
+                                    viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit.
+                                    Suspendisse
+                                    metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id.
+                                    Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 mx-auto">
+                        <ul class="faq-list">
+                            <li>
+                                <h4 class="faq-heading"> How long does it take to book a gas refill? </h4>
+                                <p class="read faq-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis
+                                    viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit.
+                                    Suspendisse
+                                    metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id.
+                                    Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 mx-auto">
+                        <ul class="faq-list">
+                            <li>
+                                <h4 class="faq-heading"> Can I convert from electric to PLG? </h4>
+                                <p class="read faq-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis
+                                    viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit.
+                                    Suspendisse
+                                    metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id.
+                                    Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 mx-auto">
+                        <ul class="faq-list">
+                            <li>
+                                <h4 class="faq-heading"> Which payment options aer allowed on Masa? </h4>
+                                <p class="read faq-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis
+                                    viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit.
+                                    Suspendisse
+                                    metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id.
+                                    Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="mainfooter" role="contentinfo">
+        <div class="footer-top p-y-2">
+            <div class="container-fluid">
+
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 footer-col">
+                        <div class="footer-pad">
+                            <img src="http://placehold.it/250x80" alt="" class="img-fluid">
+                            <address>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Southdowns Ridge Office Park<br>
+                                        John Vorster Drive<br>
+                                        Centurion<br>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-col">
+                        <div class="footer-pad">
+                            <p>Make money with us
+                            <p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Become a Service Provider</a></li>
+                                <li><a href="#">Become a Driver</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-col">
+                        <div class="footer-pad">
+                            <p>Company</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Low Carbon Future</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-col">
+                        <div class="footer-pad">
+                            <p>Help</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Safety</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <hr />
+                <div class="row">
+                    <div class="col-md-3 bottomFooterTextLeft">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Legal</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 bottomFooterTextLeft">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 bottomFooterTextRight">
+                        <section class="wow fadeIn bg-gray animated"
+                            style="visibility: visible; animation-name: fadeIn;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 center-col text-center">
+                                        <a href="#" class="btn social-icon button" data-abc="true">
+                                            <i class="fa fa-facebook btn-round"></i>
+                                        </a>
+                                        <a href="#" class="btn social-icon button" data-abc="true">
+                                            <i class="fa fa-twitter btn-round"></i>
+                                        </a>
+                                        <a href="#" class="btn social-icon button" data-abc="true">
+                                            <i class="fa fa-instagram btn-round"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- Common Questions js -->
+<script>
+    $('.faq-heading').click(function () {
+        $(this).parent('li').toggleClass('the-active').find('.faq-text').slideToggle();
+    });
+</script>
+
+</html>

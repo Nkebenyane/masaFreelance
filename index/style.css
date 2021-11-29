@@ -1,0 +1,432 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "arial", sans-serif;
+}
+
+#map-canvas {
+  height: 100%;
+}
+
+/* Navbar */
+.nav-item a:hover {
+  font-weight: bold;
+  color: #000000;
+}
+.active {
+  font-weight: bold;
+}
+.getStartBtn a {
+  padding: 10px;
+  text-align: center;
+}
+
+/* End Navbar */
+
+.card {
+  border: none;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  border: none;
+  background: #ffffff;
+}
+
+.textSide {
+  padding: 100px;
+  background-color: rgb(248, 248, 248);
+}
+.textSide h1 {
+  font-size: 4.4em;
+  font-weight: bold;
+}
+.textSide p {
+  color: #8a8a8a;
+  padding-top: 20px;
+}
+.imageSide{
+  background-image: url("http://placehold.it/1280x960");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.input-group-text,
+.mapInput {
+  background: #d4d3d3;
+  border: none;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.conveniantText h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.VideoText h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.youTubeVideo {
+  height: 630px;
+  margin-bottom: 63px;
+  border: none;
+}
+
+.youTubeVideo iframe {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.getStartFreeBtn {
+  background: #000000;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 25px;
+  margin-bottom: 55px;
+  border-radius: 6px;
+}
+.getStartFreeBtn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.form-group {
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+}
+
+.form-group form {
+  padding: 55px;
+}
+
+.calculateLeftText {
+  margin-top: 184px;
+}
+
+.calculateLeftText h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.calculateForm {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.calculateForm label{
+  color:#c9c7c7;
+}
+
+.calculateBg {
+  background-image: url("http://placehold.it/1280x960");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.calculateBg .container {
+  padding-bottom: 85px;
+  padding-top: 85px;
+}
+
+.futureText h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.futureText p {
+  text-align: center;
+}
+
+#more {
+  display: none;
+}
+
+.infoTextCard {
+  padding: 25px;
+  background: #c9c7c7;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+
+.infoBodyCard {
+  margin-top: 246px;
+  background: #c9c7c7;
+  color: #ffffff;
+}
+.infoTextCard button {
+  background: #000000;
+}
+
+.jumbotron {
+  margin-top: 84px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  border-radius: 15px;
+}
+.jumbotron p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.jumbotron h1 {
+  font-weight: bold;
+}
+.jumbotron button{
+  background-color: #000000;
+}
+
+.dropdown {
+  margin-top: 25px;
+}
+
+/* Common Questions */
+.faq-list {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-list li {
+  margin: 30px 0;
+  padding: 15px 30px;
+  margin: 0px auto 30px;
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+  background: rgb(245, 244, 244);
+}
+
+.faq-list .faq-heading::before {
+  content: "+";
+  font-size: 40px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -8px;
+  color: #c2c2c2;
+}
+
+.faq-list .the-active .faq-heading::before {
+  content: "-";
+}
+
+.faq-heading {
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0;
+  color: #c2c2c2;
+  font-weight: lighter;
+}
+
+.faq-heading:hover {
+  color: var(--theme-color);
+}
+
+.faq-text {
+  display: none;
+}
+
+.read {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+.commonQuestionText h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+/* End Common Questions */
+
+/* Footer */
+
+footer {
+  color: #000000;
+}
+footer a {
+  color: #000000;
+}
+footer a:hover {
+  color: rgb(180, 175, 175);
+}
+
+.footer-bottom {
+  background: #ffffff;
+  padding: 2em;
+}
+.footer-top {
+  background: #ffffff;
+}
+.footer-middle {
+  background: #ffffff;
+  padding-top: 2em;
+  color: #000000;
+}
+
+.footer-col{
+  padding: 3em;
+}
+.footer-col p{
+  font-weight: bold;
+}
+.footer-col li{
+  font-weight: lighter;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.bottomFooterTextRight{
+  text-align: right;
+}
+/* End Footer */
+
+/* social icon */
+.social-icon .fa {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px !important;
+  line-height: 1;
+  font-size: 14px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #fff;
+  background: none
+}
+
+.social-icon:hover .fa {
+  opacity: .8
+}
+
+.social-icon .fa-facebook {
+  background-color: #000000
+}
+
+.social-icon .fa-twitter {
+  background-color: #000000
+}
+
+.social-icon .fa-instagram {
+  background-color: #000000
+}
+
+.social-icon-large {
+  margin-right: 20px
+}
+
+.social-icon-large .fa {
+  font-size: 25px;
+  background: transparent;
+  color: #000;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px !important;
+  line-height: 1;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease
+}
+
+.social-icon-large:hover .fa {
+  color: #fff
+}
+
+.social-icon-large:hover .fa-facebook {
+  background-color: #3b5998
+}
+
+.social-icon-large:hover .fa-twitter {
+  background-color: #00aced
+}
+
+.social-icon-large:hover .fa-instagram {
+  background-color: #517fa4
+}
+
+.btn-round {
+  border-radius: 4px !important
+}
+
+.btn.btn-large i {
+  font-size: 24px
+}
+/* End Social */
+
+
+/* Responsive mobile */
+@media screen and (max-width: 1024px) {
+  .textSide {
+    background-color: rgb(248, 248, 248);
+    text-align: left;
+  }
+  .textSide h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+
+  .youTubeVideo {
+    background-color: rgb(248, 248, 248);
+    border: none;
+    height: 380px;
+    border-radius: 15px;
+  }
+
+  .youTubeVideo iframe {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .VideoText h2 {
+    font-size: 1.8rem;
+  }
+
+  .conveniantText h2 {
+    font-size: 1.8rem;
+  }
+  .calculateLeftText {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
+  .calculateForm {
+    padding: 25px;
+    background: #ffffff;
+  }
+
+  .footer-col{
+    padding: 10px;
+    justify-content: center;
+    text-align: center
+  }
+  .bottomFooterTextLeft{
+    justify-content: center;
+    text-align: center
+  }
+}
